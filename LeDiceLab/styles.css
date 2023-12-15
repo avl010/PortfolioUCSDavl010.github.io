@@ -1,0 +1,91 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background: linear-gradient(to bottom, #164a41, #5f9960);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #181f29;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Gochi Hand', cursive;
+}
+
+h2  {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6cb66d;
+}
+
+h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #afafaf;
+}
+
+.win {
+  color: #19de1c; 
+}
+
+.lose {
+  color: #E33030; 
+}
+
+p {
+  margin-top: 5%;
+  color: #f1b24a;
+}
+
+img {
+  width: 80%;
+  background-color: #ffbb4d;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+.myBtn {
+  margin: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5f9960;
+  border: none;
+  border-radius: 15px; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.myBtn:hover {
+  background-color: #164a41;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.finalBalance{
+  margin: 30px;
+  color: #ffbb4d;
+  font-size: 1rem;
+  font-weight: bold;
+}

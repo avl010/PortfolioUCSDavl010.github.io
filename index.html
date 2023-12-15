@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angela Le's Portfolio </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-/BimMjTwn7jYUAz08gACuf6bEIP3j1+7tZslM5FbUPqV0g+Bk1db0n5uOh6s77tPqq1bUivP5gFx0QpoNtdX6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Stoke&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" />
+
+</head>
+<body>
+
+<div class="gradient-background"></div>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="images\clover.png" alt="Clover" class="clover" >
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <a href="#" class="btn btn-light nav-button mr-2">Home</a>
+            <a href="#works" class="btn btn-light nav-button mx-2">Works</a>
+            <a href="https://docs.google.com/document/d/1YOG5_TqFelTgPUNjrHSRQWyJAcTK-k0NLR398SDsEp4/edit?usp=sharing" class="btn btn-light nav-button ml-2">Resume</a>
+        </ul>
+    </div>
+</nav>
+
+<!-- Section 1 -->
+<section id="about" class="container-fluid my-5 full-height fade-in">
+    <div class="row full-height justify-content-center align-items-center">
+        <div class="col-md-8">
+            <div class="intro-container">
+                <h2>Hello! I'm <u><b>Angela!</b></u></h2>
+                <p class="intro">
+                    A design student currently majoring in ICAM at UCSD.
+                    Motivated by a desire for continuous growth, I seek to acquire <i>new knowledge</i>
+                    and foster <i>creativity</i> through <u>engaging</u> and <u>innovative</u> design. The goal is to 
+                    craft experiences that are not only enjoyable but also <u>accessible</u> and <u>user-centric.</u>
+                </p>
+            </div>
+            <!-- Icons -->
+            <img src="images\star.png" alt="Icon 1" class="icon1">
+            <img src="images\star.png" alt="Icon 2" class="icon2">
+            <img src="images\star.png" alt="Icon 3" class="icon3">
+            <img src="images\star.png" alt="Icon 4" class="icon4">
+
+            <!-- Arrow Link -->
+            <div class="arrow-container text-center mt-5">
+                <a href="#works" id="scroll-indicator">
+                    <svg id="more-arrows">
+                        <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3"/>
+                        <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7"/>
+                        <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 2: Works -->
+<section id="works" class="container-fluid my-5 full-height fade-in">
+    <h2 class="text-center"><b>━━ Works ━━</b></h2>
+    <div class="row">
+
+        <!-- Work 1 -->
+        <div class="col-md-6 mb-4">
+            <!-- Logo -->
+            <img src="images\dice.png" alt="Dice" class="dice">
+            <div class="card slanted-square">
+                <!-- Title and Description -->
+                <div class="card-body">
+                    <h5 class="card-title"><b>Dice Game</b></h5>
+                    <p class="card-text">
+                        A game where players can roll a virtual six-sided dice and customize the number of rolls.
+                        Players can enjoy the thrill of chance while tracking their virtual monetary balance throughout the game.
+                    </p>
+                    <a href="dicegame.html" class="btn btn-primary more-button">See More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work 2 -->
+        <div class="col-md-6 mb-4">
+            <!-- Logo -->
+            <img src="images\spotify.png" alt="Spotify" class="spotify">
+            <div class="card slanted-square">
+                <!-- Title and Description -->
+                <div class="card-body">
+                    <h5 class="card-title"><b>Spotify Symphony</b></h5>
+                    <p class="card-text">
+                        Specifically designed application catering to the tastes of classical music aficionados.
+                        Immerses the user in a world where the timeless beauty of classical compositions takes center stage.
+                    </p>
+                    <a href="spotifysymphony.html" class="btn btn-primary more-button">See More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="container-fluid custom-footer-bg text-center py-3">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <!-- Social Links -->
+            <h5><b>Connect with Me</b></h5>
+            <a href="https://www.linkedin.com/in/angelale0022/" class="social-link" target="_blank"><img src="images\linkedin.png" alt="LinkedIn" class="social-icon"></a>
+            <a href="https://github.com/avl010" class="social-link" target="_blank"><img src="images\github.png" alt="GitHub" class="social-icon"></a>
+            <a href="mailto:avl010@ucsd.edu" class="social-link" target="_blank"><img src="images\email.png" alt="Email" class="social-icon"></a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="portfolio.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

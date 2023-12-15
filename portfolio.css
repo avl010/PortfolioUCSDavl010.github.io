@@ -1,0 +1,293 @@
+body {
+    padding-top: 0px;
+}
+
+.custom-footer-bg {
+    background-color: #add8a1; 
+    color: #fff; 
+}
+
+.social-icon {
+    width: 50px; 
+    height: 50px; 
+    margin: 0 10px; 
+    filter: invert(100%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the gradient behind other elements */
+    animation: gradientAnimation 30s linear infinite; 
+    background: linear-gradient(45deg, #626f5b, #94cb77, #3f7a3b, #26976a, #174a23);
+    background-size: 400% 400%;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+a {
+    color: #cefdbc;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #add8a1 !important;
+    z-index: 1000; /* Adjust the z-index as needed */
+    transition: top 0.3s; /* Add a smooth transition effect */
+}
+
+.navbar:hover {
+    top: 0; /* Ensure the navbar stays visible when hovered */
+}
+
+.nav-button {
+    background-color: #579352; 
+    color: #fff; 
+    border: 2px solid #579352;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-radius: 15px; 
+    font-family: 'Comfortaa', serif;
+}
+
+.nav-button:hover {
+    background-color: transparent; 
+    color: #579352; 
+    border-color: #579352; 
+    border-radius: 15px; 
+}
+
+.nav-button.active {
+    background-color: transparent; 
+    color: #579352; 
+    border-color: #579352; 
+    border-radius: 15px; 
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    color: #3f7a3b; 
+    font-size: 25px;
+    font-family: 'Gravitas One', sans-serif;
+}
+
+h2, h3 {
+    color:#cefdbc;
+    font-family: 'Stoke', sans-serif;
+}
+
+h5 {
+    color:#3f7a3b;
+    font-family: 'Stoke', sans-serif;
+}
+
+p, li {
+    color: #ffffff;
+    font-family: 'Comfortaa', serif;
+}
+
+.intro {
+    color: #ffffcd;
+    font-family: 'Comfortaa', serif;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.clover {
+    width: 50px; 
+    height: 50px; 
+    filter: invert(100%);
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    width: 50px; 
+    height: 50px; 
+    filter: invert(100%); 
+}
+
+.icon1 {
+    position: absolute;
+    top: 200px;
+    left: -50px;
+}
+
+.icon2 {
+    position: absolute;
+    top: -50px;
+    right: 0px;
+}
+
+.icon3 {
+    position: absolute;
+    top: -120px;
+    width: 25px;
+    height: 25px;
+    right: 600px;
+}
+
+.icon4 {
+    position: absolute;
+    top: 250px;
+    width: 25px;
+    height: 25px;
+    right: 200px;
+}
+
+.arrow-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#more-arrows {
+    width: 75px;
+    height: 65px;
+
+    &:hover polygon {
+        fill: #FFF;
+        transition: all .2s ease-out;
+
+        &.arrow-bottom {
+            transform: translateY(-18px);
+        }
+
+        &.arrow-top {
+            transform: translateY(18px);
+        }
+    }
+}
+
+polygon {
+    fill: #FFF;
+    transition: all .2s ease-out;
+
+    &.arrow-middle {
+        opacity: 0.75;
+    }
+
+    &.arrow-top {
+        opacity: 0.5
+    }
+}
+
+#scroll-indicator {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#scroll-indicator:hover {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #add8a1;
+    border-radius: 15px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.active {
+    opacity: 1;
+}
+
+.full-height.active .fade-in {
+    opacity: 1;
+}
+
+#works {
+    padding-top: 120px; /* Adjust the value to match the height of your fixed navbar */
+}
+
+#works h2 {
+    margin-bottom: 25px;
+    color: #add8a1;
+    padding: 20px;
+    font-family: 'Stoke', sans-serif;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    filter: invert(100%);
+    transform: translateY(-10%);
+}
+
+.spotify {
+    width: 100px;
+    height: 100px;
+    filter: invert(100%);
+    transform: translateY(-10%);
+}
+
+.more-button {
+    background-color: #8eba7c; 
+    color: #fff; 
+    border: 2px solid #8eba7c;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-radius: 15px; 
+    font-family: 'Comfortaa', serif;
+}
+
+.more-button:hover {
+    background-color: transparent; 
+    color: #ffffff; 
+    border-color: #ffffff; 
+    border-radius: 15px; 
+}
+
+.image-container {
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.dicegame {
+    height: auto; 
+    border-radius: 15px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.spotifysymphony {
+    height: auto; 
+    border-radius: 15px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 50%;
+}
